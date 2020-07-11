@@ -3,7 +3,7 @@
     <nuxt-link to="/" class="brand">Real World Events</nuxt-link>
     <nav>
       <nuxt-link to="/">List</nuxt-link> |
-      <nuxt-link :to="{ name: 'create' }">Create</nuxt-link>
+      <nuxt-link :to="{ name: 'event-create' }">Create</nuxt-link>
     </nav>
   </div>
 </template>
